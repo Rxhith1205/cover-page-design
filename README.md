@@ -131,7 +131,6 @@ Execute the code
     </body>
 </html>
 ```
-
 ## Output:
 ![output](https://github.com/Rxhith1205/cover-page-design/assets/147473311/1bf29482-6ef8-4570-9746-f465b4f9eb3c)
 
