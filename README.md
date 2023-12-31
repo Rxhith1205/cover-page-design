@@ -5,14 +5,136 @@ To develop a website to display the cover page design of a book
 ## Design Steps:
 
 ### Step 1:
-Write your own steps here.
+create the code using html and css
 ### Step 2:
-
+Execute the code
 ## Code:
-Include your HTML code here
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta name="viewport" 
+         content="width=device-width, initial-scale=1.0">
+         <style>
+
+        .bookpage{
+            width: 400px;
+            height: 600px;
+            color:rgb(17, 17, 17);
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image: url(back.jpg);
+            background-size: cover;
+        }
+            
+
+        .insight{
+            color: rgb(231, 9, 20);
+
+        }
+
+        
+        .hrstyle{
+            width:100px;
+        }
+        .author{
+        
+            display: inline;
+            position: relative;
+            color: red;
+            top:190px;
+            
+            font-family:Georgia;
+            font-size: medium;
+        }
+        .booktitle{
+            color:aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+            text-align: right;
+            position: relative;
+            top: 30px;
+        
+        }
+        .id {
+            width:400px;
+            position: relative;
+            top:180px;
+            
+        }
+        .pub{
+            color:rgb(240, 47, 13);
+            font-size: medium;
+            position: relative;
+            top:155px;
+            left:330px;
+        }
+        .ed{
+            color:white;
+            font-size: medium;
+            font-family: Verdana;
+            position:relative;
+            top:85px;
+
+        }
+        .subtitle{
+            color: crimson;
+            font-family:Tahoma;
+            font-size: large;
+            position: relative;
+            top:40px;
+        }
+        .mypic{
+            position: relative;
+            top: 135px;
+            left: 260px;
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+            
+        }
+        </style>
+        <title>Book Cover Page</title>
+    </head>
+    <body>
+        <div class="bookpage">
+            <div class="insight">
+                SEC INSIGHT
+            </div>
+            <div class="hrstyle">
+                <hr style="color: rgb(255, 255, 255);">
+            </div>
+            <div class="booktitle">
+                <h1>INNOVATION & TECHNOLOGY
+                </h1></div>
+            <div class="subtitle">
+                LET'S KNOW ABOUT THE FUTURE
+            </div>
+            <div class="mypic">
+                <img src="sanjay.jpeg" width="130" height="145" alt="">
+            </div>
+            <div class="id">
+                <hr style="color: rgb(123, 255, 0);">
+            </div>
+            <div class="author">
+               <p><b>Rohith hariharan</b></p>
+            </div>
+            <div class="pub">
+                SEC
+            </div>
+            <div class="ed">
+                <b> First Edition</b>
+            </div>
+        </div>
+    </body>
+</html>
+```
 
 ## Output:
-Include your output screenshot here
+![output](https://github.com/Rxhith1205/cover-page-design/assets/147473311/1bf29482-6ef8-4570-9746-f465b4f9eb3c)
+
 
 ## Result:
-Write your result
+This program is executed sucessfully 
